@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://your-username.github.io/your-repo-name",
+  "homepage": "https://MarconiStudio.github.io/net",
   "scripts": {
     "dev:client": "vite --host --port 3000",
     "dev": "pnpm dev:client",
-  "build:client": "vite build --base=/your-repo-name/ --outDir dist/static",
+  "build:client": "vite build --base=/net/ --outDir dist/static",
     "build": "rm -rf dist && pnpm build:client && cp package.json dist && touch dist/build.flag"
   },
   "dependencies": {
